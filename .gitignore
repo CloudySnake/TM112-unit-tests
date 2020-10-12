@@ -1,0 +1,20 @@
+# Editor
+*.iml
+.swp
+.vscode
+.idea
+
+# Python
+*__pycache__/
+*.pyc
+.venv/
+venv
+.python-version
+.testmondata
+.mypy*
+.pytest_cache*
+.coverage*
+htmlcov/
+
+# OSX
+.DS_STORE
