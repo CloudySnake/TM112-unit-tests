@@ -102,8 +102,8 @@ Those folks using things like PyCharm (the best and only correct option) or VSCo
 directly within the IDE - and also pick which tests run.
 
 ### Looking at the results
-In the ideal world everything will go green and all tests will pass (Except Quiz 1 Q20 as I can't
-get that test working yet).  If not, then looking at the errors will help guide you as to what is wrong.
+In the ideal world everything will go green and all tests will pass.  
+If not, then looking at the errors will help guide you as to what is wrong.
 
 You will likely either see syntax errors (which means your code has a problem and couldn't run) or *Assertion Error*.
 An assertion error means the code ran, but gave a difference answer than what the test was expecting.
