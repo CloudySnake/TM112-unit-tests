@@ -19,6 +19,7 @@ test_cases = [
 def test_question_21(mocker, capsys, test_input, expected_output):
     mocker.patch("builtins.input", return_value=test_input)
     import src.block_quiz_01.question_21 as q21
+
     capsys.readouterr()
     importlib.reload(q21)
     captured = capsys.readouterr()
